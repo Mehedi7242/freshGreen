@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header id="home">
+        <h1 class="header-title">FreshGreens</h1>
+        <p class="header-subtitle">Your subscription-based organic vegetable delivery service.</p>
+    </header>
+
+
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul id="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#subscription-types">Subscription</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="farmer.html">Sell Product</a></li>
+
+        </ul>
+    </nav>
+    <h2 class="service-title">Select Your Subscription Items</h2>
+    <section id="subscription">
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/2255935/pexels-photo-2255935.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 1" class="item-image">
+            <h3>Item 1</h3>
+            <p>Description of Item 1</p>
+            <div class="quantity-selector">
+              
+              <button class="select-quantity-button">Select Quantity (Kg)</button>
+              <button onclick="buyNowAlert()">Buy Now</button>
+              <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+            </div>
+        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 2" class="item-image">
+            <h3>Item 2</h3>
+            <p>Description of Item 2</p>
+
+            <div class="quantity-selector">
+
+              <button class="select-quantity-button">Select Quantity (Kg)</button>
+              <button>Buy Now</button>
+              <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+            </div>
+
+        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/952476/pexels-photo-952476.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 3" class="item-image">
+            <h3>Item 3</h3>
+            <p>Description of Item 3</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/1656663/pexels-photo-1656663.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 4" class="item-image">
+            <h3>Item 4</h3>
+            <p>Description of Item 4</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 5" class="item-image">
+            <h3>Item 5</h3>
+            <p>Description of Item 5</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/142520/pexels-photo-142520.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 6" class="item-image">
+            <h3>Item 6</h3>
+            <p>Description of Item 6</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/2751755/pexels-photo-2751755.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 7" class="item-image">
+            <h3>Item 7</h3>
+            <p>Description of Item 7</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/1391487/pexels-photo-1391487.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 8" class="item-image">
+            <h3>Item 8</h3>
+            <p>Description of Item 8</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/219794/pexels-photo-219794.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 9" class="item-image">
+            <h3>Item 9</h3>
+            <p>Description of Item 9</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/248420/pexels-photo-248420.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 10" class="item-image">
+            <h3>Item 10</h3>
+            <p>Description of Item 10</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/1093837/pexels-photo-1093837.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 11" class="item-image">
+            <h3>Item 11</h3>
+            <p>Description of Item 11</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/196643/pexels-photo-196643.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 12" class="item-image">
+            <h3>Item 12</h3>
+            <p>Description of Item 12</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/1367242/pexels-photo-1367242.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 13" class="item-image">
+            <h3>Item 13</h3>
+            <p>Description of Item 13</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/928251/pexels-photo-928251.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 14" class="item-image">
+            <h3>Item 14</h3>
+            <p>Description of Item 14</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/53588/tomatoes-vegetables-food-frisch-53588.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 15" class="item-image">
+            <h3>Item 15</h3>
+            <p>Description of Item 15</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/1414642/pexels-photo-1414642.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 16" class="item-image">
+            <h3>Item 16</h3>
+            <p>Description of Item 16</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+        <div class="item-card">
+            <img src="https://images.pexels.com/photos/3872406/pexels-photo-3872406.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Vegetable 17" class="item-image">
+            <h3>Item 17</h3>
+            <p>Description of Item 17</p>
+        <div class="quantity-selector">
+
+          <button class="select-quantity-button">Select Quantity (Kg)</button>
+          <button>Buy Now</button>
+          <input type="number" min="1" step="0.1" class="quantity-input" placeholder="1" />
+
+        </div>        </div>
+    </section>
+
+    <section id="subscription-types" class=" subscription-section">
+        <h2 class="section-title">Choose Your Subscription Duration</h2>
+        <div class="subscription-options">
+            <button class="subscription-button">7 Days</button>
+            <button class="subscription-button">10 Days</button>
+            <button class="subscription-button">15 Days</button>
+            <button class="subscription-button">20 Days</button>
+            <button class="subscription-button">30 Days</button>
+        </div>
+    </section>
+
+
+    
+    <section id="about">
+        <h2>About FreshGreens</h2>
+        <p>FreshGreens is committed to delivering fresh, organic vegetables directly from farms to your doorstep. Our service combats rising prices and ensures you receive high-quality produce at an affordable rate.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer weekly and monthly subscriptions to suit your needs, with options to pause deliveries during emergencies.</p>
+    </section>
+    <section id="benefits">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>Affordable pricing by cutting out middlemen</li>
+            <li>Support for local farmers</li>
+            <li>Fresh and high-quality organic vegetables</li>
+        </ul>
+    </section>
+    
+    <footer id="contact">
+        <p>Contact us at: <a href="mailto:contact@freshgreens.com">contact@freshgreens.com</a></p>
+        <p>© 2024 FreshGreens. All rights reserved.</p>
+    </footer>
+    
+  <script src="script.js"></script>
+    
+</body>
+
+</html>

@@ -13,7 +13,7 @@ const productList = document.getElementById('productList');
 
 
 productForm.addEventListener('submit', function(event) {
-  event.preventDefault(); // Prevent form from refreshing the page
+  event.preventDefault();
 
 
   const productName = document.getElementById('productName').value;
@@ -39,4 +39,21 @@ productForm.addEventListener('submit', function(event) {
   } else {
     alert('Please fill out all fields before submitting.');
   }
+});
+
+
+
+console.log('hello')
+
+
+
+document.getElementById('login-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert('Login Successful!');
+});
+
+
+document.getElementById('register-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+      alert('Passwords do not match.');
 });

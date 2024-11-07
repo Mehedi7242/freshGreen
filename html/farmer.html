@@ -5,28 +5,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="farmer.css" rel="stylesheet" type="text/css" />
+  <link href="../style/farmer.css" rel="stylesheet" type="text/css" />
 
   
 </head>
   <body>
-      <header id="home">
-          <h1 class="header-title">FreshGreens</h1>
-          <p class="header-subtitle">Your subscription-based organic vegetable delivery service.</p>
-      </header>
-
-      <nav>
-          <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-          <ul id="nav-menu">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="index.html">About</a></li>
-              <li><a href="index.html">Services</a></li>
-              <li><a href="index.html">Benefits</a></li>
-              <li><a href="index.html">Subscription</a></li>
-              <li><a href="index.html">Contact</a></li>
-              <li><a href="farmer.html">Sell Product</a></li>
-          </ul>
-      </nav>
+    <header id="home">
+        <h1 class="header-title">FreshGreens</h1>
+        <p class="header-subtitle">Your subscription-based organic vegetable delivery service.</p>
+    </header>
+  
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu1()">☰</button>
+        <ul id="nav-menu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./service.html">Services</a></li>
+            <li><a href="./benifit.html">Benefits</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="farmer.html">Sell Product</a></li>
+        </ul>
+    </nav>
 
       <h2>Add Your Product for Sale</h2>
       <form id="productForm">
@@ -47,7 +46,13 @@
 
       <h2>Available Products</h2>
       <ul id="productList"></ul>
+      <script src="/script.js"></script>
+      <script>
+        function toggleMenu1() {
+          const navMenu = document.getElementById("nav-menu");
+          navMenu.classList.toggle("show");
+        }
+      </script>
 
-      <script src="script.js"></script>
   </body>
 </html>

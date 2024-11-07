@@ -35,19 +35,6 @@ html {
     font-style: italic;      
   }
   
-  .service-title {
-    color: #6c9d47;           
-    margin-bottom: 1rem;    
-    font-size: 1.5rem;        
-    text-align: center;        
-    font-weight: bold;       
-    text-transform: uppercase; 
-    letter-spacing: 1px;      
-    padding: 1rem 0;          
-    border-bottom: 2px solid #ddd; 
-    background-color: rgba(108, 157, 71, 0.1); 
-    border-radius: 5px;       
-  }
   
   nav {
     background-color: #6c9d47;
@@ -195,17 +182,7 @@ html {
     text-align: center;
   }
   
-  #benefits ul {
-    padding-left: 2rem;
-    list-style-type: disc;
-    margin: 1rem 0;
-  }
-  
-  #benefits li {
-    margin-bottom: 0.5rem;
-    color: #333;
-    font-size: 1rem;
-  }
+
   
   /* Footer Styling */
   footer {

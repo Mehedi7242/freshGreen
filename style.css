@@ -9,6 +9,9 @@ html {
     padding: 0;
     color: #333;
   }
+  .service-title{
+    text-align: center;
+  }
   
   header {
     background-image: url('https://t4.ftcdn.net/jpg/03/20/39/85/240_F_320398572_P4HHAy08qiRKI9b7GgsHDKy15qwgjlTy.jpg'); 
@@ -112,7 +115,7 @@ html {
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 400px; 
-    width: 250px;  
+    width: 240px;  
   }
   
   .item-image {

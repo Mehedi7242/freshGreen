@@ -22,18 +22,34 @@ html {
   }
   
   .header-title {
-    font-size: 3rem;          
-    margin: 0;              
-    font-weight: bold;       
-    text-transform: uppercase; 
-    letter-spacing: 2px;     
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    /* Glowing border */
+    text-shadow: 0 0 10px #6c9d47, 0 0 20px #6c9d47, 0 0 30px #6c9d47, 0 0 40px #6c9d47, 0 0 50px #6c9d47;
+    animation: glow 2s infinite alternate;
+}
+
+
+@keyframes glow {
+  from {
+      text-shadow: 0 0 5px #6c9d47, 0 0 10px #6c9d47, 0 0 15px #6c9d47, 0 0 20px #6c9d47;
   }
-  
-  .header-subtitle {
-    font-size: 1.25rem;      
-    margin-top: 10px;        
-    font-style: italic;      
+  to {
+      text-shadow: 0 0 10px #6c9d47, 0 0 20px #6c9d47, 0 0 30px #6c9d47, 0 0 40px #6c9d47, 0 0 50px #6c9d47;
   }
+}
+
+.header-subtitle {
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0 0 5px #6c9d47, 0 0 10px #6c9d47, 0 0 15px #6c9d47;
+    animation: glow 2s infinite alternate;
+}
   
   
   nav {

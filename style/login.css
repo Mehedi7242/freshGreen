@@ -1,4 +1,4 @@
-/* General styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,6 +13,8 @@ header {
     padding: 20px;
     color: white;
 }
+
+
 
 header h1 {
     margin: 0;
@@ -42,7 +44,6 @@ nav ul li a {
     font-size: 16px;
 }
 
-/* Login/Register Section */
 #auth-section {
     display: flex;
     justify-content: space-around;
@@ -101,7 +102,6 @@ button:hover {
     background-color: #5a833a;
 }
 
-/* Flex container for login/register forms */
 #auth-section {
     display: flex;
     justify-content: center;
@@ -116,7 +116,7 @@ button:hover {
     margin-bottom: 20px;
 }
 
-/* Stack forms vertically on smaller screens */
+
 @media (max-width: 768px) {
     #auth-section {
         flex-direction: column;
